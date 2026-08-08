@@ -1,11 +1,5 @@
 # ORBIT — AI Cohort Interview Agent
 
-> Build the interviewer, not the interview.
-
-🚀 **[Live Demo — Try ORBIT]([YOUR_LIVE_DEMO_URL](https://ai-interview-agent-j7ls.onrender.com))**
-
-📂 **[GitHub Repository](YOUR_GITHUB_REPOSITORY_URL)**
-
 Run with Python 3.11+:
 
 ```powershell
