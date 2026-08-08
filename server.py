@@ -13,7 +13,7 @@ from threading import Lock
 from typing import Any
 
 ROOT = Path(__file__).parent
-DATA_DIR = Path(os.getenv("COHORT_DATA_DIR", r"C:\Users\Surya\Downloads"))
+DATA_DIR = Path(os.getenv("COHORT_DATA_DIR", ROOT / "data"))
 SESSIONS: dict[str, dict[str, Any]] = {}
 LOCK = Lock()
 
