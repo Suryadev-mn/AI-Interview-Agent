@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: orbit-ai-interview-agent
+    runtime: python
+    buildCommand: echo "No external dependencies required"
+    startCommand: python server.py
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.14.3
